@@ -1,0 +1,18 @@
+#Virtual Environment
+.venv/
+venv/
+# Secrets (never commit these)
+.env
+# Python junk
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Mac junk
+.DS_Store
+
+# Data files (large, shared via download instructions instead)
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
